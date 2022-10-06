@@ -11,11 +11,16 @@ public class Problem01 {
         String a = scan1.next();
         char c = scan1.next().charAt(0);
         
-        System.out.println(solution(a, c));
+        Solution sol = new Solution();
+        System.out.println(sol.solution(a, c));
         return;
     }
 
-    public static int solution(String str, char c){
+}
+
+class Solution{
+    
+    public int solution(String str, char c){
         int result = 0;
         str = str.toUpperCase();
         c = Character.toUpperCase(c);
