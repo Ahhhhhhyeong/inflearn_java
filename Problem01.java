@@ -7,19 +7,16 @@ import java.util.Scanner;
 public class Problem01 {
 
     public static void main(String[] args) {
-        Scanner scan1 = new Scanner(System.in);
-        String a = scan1.next();
-        char c = scan1.next().charAt(0);
-        
+        Scanner in = new Scanner(System.in);
+        String a = in.next();
+        char c = in.next().charAt(0);
+
         Solution sol = new Solution();
         System.out.println(sol.solution(a, c));
-        return;
     }
-
 }
 
-class Solution{
-    
+class Solution{    
     public int solution(String str, char c){
         int result = 0;
         str = str.toUpperCase();
