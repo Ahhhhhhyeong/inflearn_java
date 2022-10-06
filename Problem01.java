@@ -16,6 +16,14 @@ public class Problem01 {
     }
 
     public static int solution(String str, char c){
-        return str.length() - str.replace(String.valueOf(c), "").length();
+        int result = 0;
+        str = str.toUpperCase();
+        c = Character.toUpperCase(c);
+
+        for(char x : str.toCharArray()){
+            if(x==c) result++;
+        }
+
+        return result;
     }
 }
