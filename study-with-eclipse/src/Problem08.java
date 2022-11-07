@@ -9,7 +9,7 @@ public class Problem08 {
 	public String solution(String s) {
 		String answer = "NO";
 		s = s.toUpperCase().replaceAll("[^A-Z]", ""); //알파벳만으로 수정 
-		String tmp = new StringBuilder(s).reverse().toString(); 
+		String tmp = new StringBuilder(s).reverse().toString(); //글자를 뒤집어버림
 		if(s.equals(tmp)) answer = "YES";
 		
 		return answer;
