@@ -22,7 +22,7 @@ public class Problem10 {
 			}
 		}
 		
-		for(int i=s.length()-1; i>=0; i--) {
+		for(int i=s.length()-1; i>=0; i--) { // 오른쪽에서부터 체크하며 기존 배열과 비교하여 젤 작은 수로 교체
 			if(s.charAt(i) == t) {
 				p=0;
 			}
