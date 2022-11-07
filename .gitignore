@@ -1,11 +1,17 @@
+##Mac
+**/.DS_Store
+
+##Maven
+**/target
+**/build
+**/out
+**/bin
+
 ## STS/Eclipse IDE
 **/.settings
 **/.classpath
 **/.project
 
-### VS Code ###
-.vscode/
-
-### Mac ###
-**/.DS_Store
-/.metadata/
+## VSCode
+.metaData
+.vscode
