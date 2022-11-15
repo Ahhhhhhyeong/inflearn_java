@@ -11,7 +11,7 @@ public class Problem18 {
     for(int i=0; i<n; i++) {
     	int ch = in.nextInt();
     	int re = 0;
-    	while(ch != 0) {
+    	while(ch != 0) { // 숫자 뒤집기
     		re = re * 10 + ch %10;
     		ch /= 10;
     	}
