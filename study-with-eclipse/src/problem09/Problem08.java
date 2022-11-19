@@ -1,12 +1,10 @@
 package problem09;
 
 /**
- * 원더랜드(프림: PriorityQueue)
+ * 원더랜드(프림알고리즘 :  PriorityQueue)
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
 
 class Edge3 implements Comparable<Edge3>{
 	public int v1;
@@ -23,7 +21,7 @@ class Edge3 implements Comparable<Edge3>{
 	}
 }
 
-public class Problem07_2 {
+public class Problem08 {
 	static int[] unf;
 	
 	public static int Find(int a) {
