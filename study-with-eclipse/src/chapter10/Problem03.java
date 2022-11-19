@@ -25,10 +25,8 @@ public class Problem03 {
 		for(int i=1; i<n; i++) {
 			int tmp = 0;
 			for(int j=0; j<i; j++) {
-				if(arr[j] < arr[i]) {
-					if(tmp < dy[j]) {
-						tmp = dy[j];						
-					}
+				if(arr[j] < arr[i] && tmp < dy[j]) {
+					tmp = dy[j];	
 				}
 			}
 			dy[i] = tmp + 1;
